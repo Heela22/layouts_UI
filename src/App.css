@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container-main{
+  width: 100%;
+  height: 100vh;
+  font-family: poppins;
+  display: flex;
+  flex-direction: row;
+  background-color:azure;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width:10vh;
+  height: 100vh;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 20px;
+  gap: 3rem;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.date{
+  margin-left: 50vh;
+}
+
+.main{
+  margin: 3px;
+  
+}
+
+.aside{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-btn{
+  display: flex;
+  flex-direction: row;
+  gap:0.5rem;
+  margin-left: 138vh;
+  margin-top: -25px;
+}
+
+.first{
+  margin-top: 5vh;
+  width: 100%;
+  height: 24vh;
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div .icon{
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+div h2{
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+div h5{
+  margin-left: 10px;
+  margin-top: 34px;
+}
+
+.top-end{
+  background-color: aqua;
+  width:30vh;
+  height: 22vh;
+  margin: 5px;
+  border-radius: 1rem;
+}
+button{
+  background-color: azure; /* Green */
+  border: 1px solid grey;
+  border-radius: 1rem;
+  color: grey;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px
+}
+
+.progress{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.progress div{
+  background-color: white;
+  padding: 1.8rem;
+  flex-basis: 2rem;
+  width: 30vh;
+  height: 43vh;
+  border-radius: 2rem;
+  margin-left: 9px;
+  margin-top: 1rem;
+  box-shadow: 0.5rem 0.5rem rgba(197, 201, 239, 0.18);
+  transition: all 300ms ease;
+}
+
+.progress div:hover{
+  box-shadow: none;
+}
+.progress h5{
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.progress svg {
+  margin-left: 13px;
+  margin-top: 20px;
+  fill: none;
+  stroke: aqua;
+  stroke-width: 14;
+  stroke-linecap: round;
+  stroke-dasharray: 110;
+  stroke-dashoffset: 92;
+}
+
+.circle h2{
+  margin-top: 20px;
+  margin-left: 8vh;
+}
+
+ div .empty-box{
+  margin-left: 2rem;
+  flex-grow: 1;
+  background-color: rgb(223, 246, 246);
+ }
+
+ .empty-box h1{
+  margin: 100px;
+  margin-left: 40vh;
+ }
+
+ .title{
+  margin: 5px;
+ }
